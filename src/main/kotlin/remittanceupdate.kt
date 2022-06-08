@@ -18,7 +18,7 @@ fun main() {
 }
 
 fun commission(card: Int, month: Int, price: Int): Double {
-    val sum = card + month
+    val sum = price + month
     val amount = when (card) {
         1 -> if (sum > 75000) {
             ((sum * 0.6) / 100) + 20
