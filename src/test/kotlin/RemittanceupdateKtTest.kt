@@ -69,6 +69,6 @@ class RemittanceupdateKtTest {
             card, month, price
         )
 
-        assertEquals(0.0,result.toDouble(),1e-6)
+        assertEquals(1.0,result.toDouble(),1e-6)
     }
 }
